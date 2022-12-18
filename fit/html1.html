@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fit and Healthy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fas fa-dumbbell"></i>DAFIT
+        </a>
+        <nav class="navbar">
+            <ul>
+                <a href="#">Home</a>
+                <a href="#js_scroll">Contact</a>
+
+
+                <a href="#js_scroll">About</a>
+                <a href="#">|</a>
+                <a href="login.html" class="btn" target="_blank">Log in </a>
+                <a href="signup.html" class="btn" target="_blank">Sign up</a>
+
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="max-width">
+            <div class="home-content">
+                <h3> TO LIVE HEALTHY<br> BE HEALTHY </h3>
+                <p>Physical fitness</b> is not the sole basis of being <b>healthy</b>; being healthy means being
+                    mentally and emotionally fit as well.
+                    Being healthy should be part of our overall lifestyle.
+                    Living a healthy lifestyle can help prevent chronic diseases and long-term illnesses. </p>
+                <a href="http://127.0.0.1:5500/signup.html"> <button class="btn">GET STARTED</button></a>
+            </div>
+            <div class="home-image">
+                <img src="./pexels-anush-gorak-1431282.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+    <section id="js_scroll">
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer-col">
+                        <h4>help</h4>
+                        <ul>
+                            <li><a href="#">Troubleshooting</a></li>
+                            <li><a href="#">Forgot password</a></li>
+                            <li><a href="#">Return</a></li>
+                            <li><a href="#">Forgot id</a></li>
+                            <li><a href="#">Payement problems</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>GYM EQUIPMENTS</h4>
+                        <ul>
+                            <li><a href="#">DUMBELL</a></li>
+                            <li><a href="#">ROD</a></li>
+                            <li><a href="#">SKIPPING ROPE</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/ayushx.98/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/zdart_/"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

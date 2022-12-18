@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #000;
+}
+
+.home-image {
+  width: 40%;
+  overflow: hidden;
+  margin-left: 8%;
+  margin-top: 7%;
+
+}
+
+.home-image img {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  border: 1px white;
+  transition: transform 2s;
+
+}
+
+.home-image:hover img {
+  transform: scale(1.3);
+}
+
+.definition {
+  float: right;
+  color: rgb(247, 230, 230);
+  margin-top: 1rem;
+  font-size: 20px;
+  position: relative;
+  bottom: 360px;
+}
+
+.definition p:hover {
+  color: red;
+}
+
+.definition h1:hover {
+  color: red;
+}
+
+.f1 {
+  width: 40%;
+
+
+}
+
+.f1 img {
+  width: 100%;
+  height: 100%;
+  margin-top: 220px;
+  margin-left: 750px;
+  border: 1px white;
+  transition: transform 2s;
+
+}
+
+.f1:hover img {
+  transform: scale(1.1);
+}
+
+.definition-2 {
+  float: left;
+  color: rgb(247, 230, 230);
+  margin-top: -120px;
+  font-size: 24px;
+  position: relative;
+  bottom: 360px;
+  margin-left: 20px;
+}
+
+.definition-2 p:hover {
+  color: red;
+}
+
+.definition-2 h1:hover {
+  color: red;
+}
+
+.image-2 {
+  width: 40%;
+  overflow: hidden;
+  margin-left: 10%;
+  margin-top: 70%;
+
+
+}
+
+.image-2 img {
+  width: 100%;
+  height: 100%;
+  margin-top: 89px;
+  margin-right: 60%;
+  border: 1px white;
+  transition: transform 2s;
+
+
+}
+
+.image-2:hover img {
+  transform: scale(1.3);
+}
+
+.definition-3 {
+  float: right;
+  color: rgb(247, 230, 230);
+  margin-top: 1rem;
+  font-size: 20px;
+  position: relative;
+  bottom: 360px;
+}
+
+.definition-3 p:hover {
+  color: red;
+}
+
+.definition-3 h1:hover {
+  color: red;
+}
+
+.back_btn {
+  margin-top: 2rem;
+  padding-left: 12px;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  background: #000000;
+  font-size: 16px;
+  border-radius: 50px;
+  border-color: white;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.back_btn:hover {
+  background: rgba(255, 255, 255, 0.76);
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
